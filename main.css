@@ -1,0 +1,102 @@
+nav{
+    background-color: cornflowerblue;
+    height: 50px;
+    box-shadow: 5px 10px 5px #eee;
+    border: double 2px white;
+
+}
+nav a{
+    margin: auto;
+    color: white;
+    background-color: black;
+    border-radius: 40px ;
+    border: 2px white solid;
+    text-align: center;
+    text-decoration: none;
+    
+}
+nav a:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+    text-decoration: none;
+    border:2px #444 dashed;
+}
+nav.container{
+    height: 100px;
+    border-bottom: double 2px white;
+    border-top: double 2px white;
+}
+nav img{
+    height: 50px;
+    
+}
+input.searchbar{
+    border-radius: 30px;
+}
+
+table tr td {
+    text-align: center;
+}
+table tr.row td.header{
+    font-size: 20px;
+    background-color: cornflowerblue;
+    border-radius: 90px 90px 90px 90px;
+    color: white;
+
+    
+}
+table tr td.avaliacoes{
+    border: 1px dashed #ddd;
+    font-size: large;
+    font-style: italic;
+    font-family: cursive;
+    color: #999;
+}
+div.consulta{
+    background-color: black;
+    color: white;
+    border-bottom: double 2px white;
+}
+div.categorias{
+    background-color: cornflowerblue;
+    color: white;
+    padding-top:10px ;
+}
+div.categorias a{
+    color:white;
+}
+form.cadastrar{
+    margin-left: 50px;
+}
+form select{
+    margin-left: 5px;
+}
+input.btn{
+    background-color: black;
+    color:white;
+}
+button{
+    background-color: black;
+    color:white;
+}
+div.letra{
+    margin-left: 20px;
+}
+div.letra b.nome {
+    font-size: 16pt;
+}
+div.letra b.cantor {
+    color:darkorange;
+}
+div.letra b.cantor a {
+    color:darkorange ;
+    font-size: larger;
+}
+div.letra b.letra{
+    font-family: sans-serif;
+    color: #666;
+}
+b.ordenar{
+    margin-right: 20px;
+}

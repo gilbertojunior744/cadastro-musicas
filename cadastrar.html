@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <title>Cadastrar Musica</title>
+</head>
+<body>
+    <form class="cadastrar" method="POST" Action="cadastrar.php">
+        Nome da música:<input class="form-control col-lg-3" name="nome" type="text" ><br>
+        Cantor(a): <input class="form-control col-lg-3" name="cantor" type="text"><br>
+        Letra: <textarea class="form-control col-lg-3" name="letra"></textarea><br>
+        Nota:<select class="form-control col-lg-3" name="nota">
+            <option class="select" name="nota" value="1">1</option>
+            <option class="select" name="nota" value="2">2</option>
+            <option class="select" name="nota" value="3">3</option>
+            <option class="select" name="nota" value="4">4</option>
+            <option class="select" name="nota" value="5">5</option>
+            <option class="select" name="nota" value="6">6</option>
+            <option class="select" name="nota" value="7">7</option>
+            <option class="select" name="nota" value="8">8</option>
+            <option class="select" name="nota" value="9">9</option>
+            <option class="select" name="nota" value="10">10</option>
+            </select><br>
+        Url: <input class="form-control col-lg-3" name="url" type="text"><br>
+        <input class="btn" type="submit" value="Cadastrar"> &nbsp;<input class="btn" type="reset" value="Reset">
+
+    </form>
+    
+</body>
+</html>
