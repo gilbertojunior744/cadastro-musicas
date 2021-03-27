@@ -1,2 +1,2 @@
-# cadastro-musicas
-Sistema para cadastrar letras de musicas adicionar notas e exibir visualizações
+# Cadastro de musicas 🎵 🎵🎵
+Sistema para cadastrar letras de musicas adicionar notas e exibir número de visualizações.
